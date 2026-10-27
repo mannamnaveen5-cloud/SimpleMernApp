@@ -7,6 +7,9 @@ import Login_page from './pages/Login_page'
 import userHome from './pages/userHome'
 import {Routes,Route} from 'react-router-dom'
 import Register from './pages/register'
+import EmpHome from './EmpHome'
+import HrHome from './HrHome'
+import AdminHome from './AdminHome'
 
 
 
@@ -22,6 +25,9 @@ function App() {
        <Route path="/register" element={<Register/>}></Route>
        <Route path="/contact" element={<Contact/>}></Route>
        <Route path="/userHome" element={<userHome/>}></Route>
+       <Route path="/EmpHome" element={<EmpHome/>}></Route>
+       <Route path="/HrHome" element={<HrHome/>}></Route>
+       <Route path="/AdminHome" element={<AdminHome/>}></Route>
     </Routes>
     <Footer_component></Footer_component>
     </div>
